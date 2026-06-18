@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한상범 | 포트폴리오</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 16px 20px;
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #444;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #0070f3;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+
+    section h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #111;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #0070f3;
+      margin-bottom: 24px;
+    }
+
+    /* About */
+    .about-text {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    /* Career */
+    .career-item {
+      margin-bottom: 28px;
+    }
+
+    .career-item .period {
+      font-size: 0.85rem;
+      color: #999;
+      margin-bottom: 4px;
+    }
+
+    .career-item .company {
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+
+    .career-item .role {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 2px;
+    }
+
+    .career-item .desc {
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 6px;
+    }
+
+    /* Projects */
+    .project-item {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+
+    .project-item h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .project-item p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* Contact */
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .contact-list li {
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    .contact-list li span {
+      font-weight: 600;
+      color: #111;
+      margin-right: 8px;
+    }
+
+    .contact-list a {
+      color: #0070f3;
+      text-decoration: none;
+    }
+
+    .contact-list a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.85rem;
+      color: #bbb;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>한상범</h1>
+    <p>직장인 · 성실하게 성장하는 사람</p>
+  </header>
+
+  <nav>
+    <a href="#about">소개</a>
+    <a href="#career">경력</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#contact">연락처</a>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2>소개</h2>
+      <p class="about-text">
+        안녕하세요, 하나생명 Project Manager 한상범입니다.<br><br>
+        DB손보에서 경영관리, IR, 신용평가 업무를 시작으로 금융업계에 발을 내디뎠으며,
+        2012년부터 하나생명에 합류하여 재무기획, 경영전략, 프로젝트 운영 등 다양한 역할을 맡아왔습니다.<br><br>
+        퇴직연금 사업 론칭, 변액보험 전략 수립, S&amp;P·AM Best 신용평가, Post Merger Integration 등
+        회사의 굵직한 프로젝트들을 총괄하며 실행력과 전략적 사고를 키워왔습니다.<br><br>
+        현재는 미래성장TFT에서 전사 AI Transformation(AX)을 담당하며,
+        금융과 기술의 접점에서 새로운 가능성을 만들어가고 있습니다.
+      </p>
+    </section>
+
+    <section id="career">
+      <h2>경력</h2>
+
+      <div class="career-item">
+        <div class="period">2012.01 – 현재</div>
+        <div class="company">하나생명</div>
+        <div class="role">Project Manager</div>
+        <div class="desc">재무기획부 관리회계 · 경영전략 · 프로젝트 운영 · 미래성장TFT(AX) PM</div>
+      </div>
+
+      <div class="career-item">
+        <div class="period">2000.01 – 2005.09</div>
+        <div class="company">DB손보</div>
+        <div class="role">대리</div>
+        <div class="desc">경영관리 · IR · 신용평가</div>
+      </div>
+
+    </section>
+
+    <section id="projects">
+      <h2>프로젝트</h2>
+
+      <div class="project-item">
+        <h3>미래성장TFT</h3>
+        <p>하나생명 전사 AX(AI Transformation) 담당 PM으로, 회사 전반의 AI 전환 프로젝트를 기획 및 운영.</p>
+      </div>
+
+      <div class="project-item">
+        <h3>퇴직연금 론칭 프로젝트</h3>
+        <p>하나생명 퇴직연금 사업 론칭 전반을 기획 및 운영.</p>
+      </div>
+
+      <div class="project-item">
+        <h3>변액보험 전략 TFT</h3>
+        <p>변액보험 상품 · 판매 · 운영 전략 수립 전반을 담당.</p>
+      </div>
+
+      <div class="project-item">
+        <h3>Rating 프로젝트</h3>
+        <p>S&amp;P, AM Best의 Financial Strength Rating 총괄 담당.</p>
+      </div>
+
+      <div class="project-item">
+        <h3>Enhancement Project</h3>
+        <p>Post Merger Integration(PMI) 프로젝트 담당.</p>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>연락처</h2>
+      <ul class="contact-list">
+        <li><span>이메일</span> <a href="mailto:sbhan114@gmail.com">sbhan114@gmail.com</a></li>
+        <li><span>전화</span> 010-4753-0117</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 한상범. All rights reserved.
+  </footer>
+
+</body>
+</html>
